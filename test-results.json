@@ -1,0 +1,267 @@
+{
+  "config": {
+    "argv": [],
+    "configFile": "D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\playwright.config.ts",
+    "rootDir": "D:/Madhuri-Kulkarni/Playwright/PlaywrightTypescriptFullcourse/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 80000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Madhuri-Kulkarni/Playwright/PlaywrightTypescriptFullcourse/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/Madhuri-Kulkarni/Playwright/PlaywrightTypescriptFullcourse/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "chromium",
+        "testDir": "D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\tests",
+        "snapshotDir": "D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "headless": false,
+          "screenshot": "on",
+          "testIdAttribute": "data-tab-item",
+          "trace": "off",
+          "actionTimeout": 20000,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.64.0",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Chapter4\\04_ReportTest.spec.ts",
+      "file": "Chapter4/04_ReportTest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test1",
+          "ok": true,
+          "tags": [
+            "smoking",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26815,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Go to YouTube",
+                      "duration": 7310
+                    }
+                  ],
+                  "startTime": "2026-10-17T11:07:13.096Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\test-results\\Chapter4-04_ReportTest-test1-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6c78e4bb45986ac8310a-a0db4848ebedd6c8c106",
+          "file": "Chapter4/04_ReportTest.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "test2",
+          "ok": true,
+          "tags": [
+            "smoking"
+          ],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 26965,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Go to YouTube",
+                      "duration": 2947
+                    }
+                  ],
+                  "startTime": "2026-10-17T11:07:13.165Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\test-results\\Chapter4-04_ReportTest-test2-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6c78e4bb45986ac8310a-f3dcb8e5e3fc732f9283",
+          "file": "Chapter4/04_ReportTest.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "test3",
+          "ok": true,
+          "tags": [
+            "smoking"
+          ],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15056,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Go to YouTube",
+                      "duration": 6364
+                    }
+                  ],
+                  "startTime": "2026-10-17T11:07:40.966Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\test-results\\Chapter4-04_ReportTest-test3-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6c78e4bb45986ac8310a-bb429b5f635d0bee86a6",
+          "file": "Chapter4/04_ReportTest.spec.ts",
+          "line": 35,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-17T11:07:10.317Z",
+    "duration": 46488.590000000004,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

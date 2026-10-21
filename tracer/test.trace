@@ -1,0 +1,49 @@
+{"version":10,"type":"context-options","origin":"testRunner","browserName":"","playwrightVersion":"1.64.0","options":{},"platform":"win32","wallTime":1792131668791,"monotonicTime":17306.87,"sdkLanguage":"javascript","testTimeout":30000,"annotations":[]}
+{"type":"before","callId":"ozum@1","startTime":17338.883,"class":"Test","method":"hook","title":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"ozum@30","parentId":"ozum@1","startTime":17361.777,"class":"Test","method":"fixture","title":"Fixture \"browser\"","params":{},"stack":[]}
+{"type":"before","callId":"ozum@31","parentId":"ozum@30","startTime":17365.444,"class":"Test","method":"pw:api","title":"Launch browser","params":{},"stack":[]}
+{"type":"after","callId":"ozum@31","endTime":17958.292,"annotations":[]}
+{"type":"after","callId":"ozum@30","endTime":17958.946,"annotations":[]}
+{"type":"before","callId":"ozum@34","parentId":"ozum@1","startTime":17963.15,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"ozum@35","parentId":"ozum@34","startTime":17967.489,"class":"Test","method":"pw:api","title":"Create context","params":{},"stack":[]}
+{"type":"after","callId":"ozum@35","endTime":18067.768,"annotations":[]}
+{"type":"after","callId":"ozum@34","endTime":18086.823,"annotations":[]}
+{"type":"before","callId":"ozum@42","parentId":"ozum@1","startTime":18087.803,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"before","callId":"ozum@43","parentId":"ozum@42","startTime":18089.652,"class":"Test","method":"pw:api","title":"Create page","params":{},"stack":[]}
+{"type":"after","callId":"ozum@43","endTime":19187.713,"annotations":[]}
+{"type":"after","callId":"ozum@42","endTime":19187.896,"annotations":[]}
+{"type":"after","callId":"ozum@1","endTime":19188.024,"annotations":[]}
+{"type":"before","callId":"ozum@45","startTime":19189.513,"class":"Test","method":"test.step","title":"Go to GitHub","params":{},"stack":[{"file":"D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\tests\\Chanpter2\\02_LocatorsTest.spec.ts","line":4,"column":5}]}
+{"type":"before","callId":"ozum@46","parentId":"ozum@45","startTime":19194.358,"class":"Test","method":"pw:api","title":"Navigate","subtitle":"github.com/BakkappaN","params":{"url":"https://github.com/BakkappaN"},"stack":[{"file":"D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\tests\\Chanpter2\\02_LocatorsTest.spec.ts","line":5,"column":20},{"file":"D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\tests\\Chanpter2\\02_LocatorsTest.spec.ts","line":4,"column":5}]}
+{"type":"after","callId":"ozum@46","endTime":22195.126,"annotations":[]}
+{"type":"before","callId":"ozum@48","parentId":"ozum@45","startTime":22204.581,"class":"Test","method":"pw:api","title":"Is visible","subtitle":"getByRole('button', { name: /accept all|accept/i })","params":{"locator":"getByRole('button', { name: /accept all|accept/i })"},"stack":[{"file":"D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\tests\\Chanpter2\\02_LocatorsTest.spec.ts","line":7,"column":39},{"file":"D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\tests\\Chanpter2\\02_LocatorsTest.spec.ts","line":4,"column":5}],"group":"getter"}
+{"type":"after","callId":"ozum@48","endTime":22598.364,"annotations":[]}
+{"type":"after","callId":"ozum@45","endTime":22598.65,"annotations":[]}
+{"type":"before","callId":"ozum@50","startTime":22601.591,"class":"Test","method":"pw:api","title":"Click","subtitle":"getByTestId('repositories').first()","params":{"locator":"getByTestId('repositories').first()"},"stack":[{"file":"D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\tests\\Chanpter2\\02_LocatorsTest.spec.ts","line":16,"column":52}]}
+{"type":"after","callId":"ozum@50","endTime":23868.158,"annotations":[]}
+{"type":"before","callId":"ozum@52","startTime":23871.097,"class":"Test","method":"pw:api","title":"Fill \"PlaywrightTypescriptFullcourse\"","subtitle":"locator('//*[@id=\"your-repos-filter\"]')","params":{"locator":"locator('//*[@id=\"your-repos-filter\"]')","value":"PlaywrightTypescriptFullcourse"},"stack":[{"file":"D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\tests\\Chanpter2\\02_LocatorsTest.spec.ts","line":17,"column":56}]}
+{"type":"after","callId":"ozum@52","endTime":25654.13,"annotations":[]}
+{"type":"before","callId":"ozum@54","startTime":25661.772,"class":"Test","method":"pw:api","title":"Fill \"any course\"","subtitle":"locator('#your-repos-filter')","params":{"locator":"locator('#your-repos-filter')","value":"any course"},"stack":[{"file":"D:\\Madhuri-Kulkarni\\Playwright\\PlaywrightTypescriptFullcourse\\tests\\Chanpter2\\02_LocatorsTest.spec.ts","line":18,"column":46}]}
+{"type":"after","callId":"ozum@54","endTime":25876.179,"annotations":[]}
+{"type":"before","callId":"ozum@56","startTime":25877.078,"class":"Test","method":"hook","title":"After Hooks","params":{},"stack":[]}
+{"type":"before","callId":"ozum@58","parentId":"ozum@56","startTime":26555.183,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"after","callId":"ozum@58","endTime":26556.837,"annotations":[]}
+{"type":"before","callId":"ozum@59","parentId":"ozum@56","startTime":26557.807,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"ozum@65","parentId":"ozum@59","startTime":37346.243,"class":"Test","method":"pw:api","title":"Close context","params":{},"stack":[]}
+{"type":"after","callId":"ozum@65","endTime":37383.158,"annotations":[]}
+{"type":"after","callId":"ozum@59","endTime":37383.285,"annotations":[]}
+{"type":"before","callId":"ozum@68","parentId":"ozum@56","startTime":37384.892,"class":"Test","method":"fixture","title":"Fixture \"testIdAttribute\"","params":{},"stack":[{"file":"project#chromium","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"ozum@68","endTime":37384.942,"annotations":[]}
+{"type":"before","callId":"ozum@75","parentId":"ozum@56","startTime":37390.393,"class":"Test","method":"fixture","title":"Fixture \"userAgent\"","params":{},"stack":[{"file":"project#chromium","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"ozum@75","endTime":37390.439,"annotations":[]}
+{"type":"before","callId":"ozum@77","parentId":"ozum@56","startTime":37391.279,"class":"Test","method":"fixture","title":"Fixture \"viewport\"","params":{},"stack":[{"file":"project#chromium","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"ozum@77","endTime":37391.334,"annotations":[]}
+{"type":"before","callId":"ozum@79","parentId":"ozum@56","startTime":37391.924,"class":"Test","method":"fixture","title":"Fixture \"screen\"","params":{},"stack":[{"file":"project#chromium","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"ozum@79","endTime":37391.959,"annotations":[]}
+{"type":"before","callId":"ozum@86","parentId":"ozum@56","startTime":37405.222,"class":"Test","method":"fixture","title":"Fixture \"isMobile\"","params":{},"stack":[{"file":"project#chromium","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"ozum@86","endTime":37405.286,"annotations":[]}
+{"type":"before","callId":"ozum@90","parentId":"ozum@56","startTime":37407.675,"class":"Test","method":"fixture","title":"Fixture \"hasTouch\"","params":{},"stack":[{"file":"project#chromium","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"ozum@90","endTime":37407.724,"annotations":[]}
+{"type":"before","callId":"ozum@93","parentId":"ozum@56","startTime":37409.062,"class":"Test","method":"fixture","title":"Fixture \"deviceScaleFactor\"","params":{},"stack":[{"file":"project#chromium","line":1,"column":1}],"group":"configuration"}
+{"type":"after","callId":"ozum@93","endTime":37409.104,"annotations":[]}
+{"type":"after","callId":"ozum@56","endTime":37414.075,"attachments":[{"name":"screenshot","contentType":"image/png","file":"attachments/ab545a30f39c062b43380b040715d00c137b9f45"}],"annotations":[]}

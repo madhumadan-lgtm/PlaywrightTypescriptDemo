@@ -1,0 +1,1 @@
+{"stats": [{"customMetric":{"name":"browser.vitals.session","hash":"467ac7d28cdbf4c8a7c33ccc8dd1986b474115bb57db3f0504b490d3e30455e3","type":"count","value":1,"tags":{"type":"automated"}},"ui":false,"timestamp":1792131673672,"loggedIn":false,"staff":false,"bundler":"rspack","app":"rails","ssr":"false"}], "target": "full"}
